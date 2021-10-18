@@ -1,4 +1,3 @@
-package com.solution;
 /*
     Problem Link:- https://leetcode.com/problems/guess-number-higher-or-lower/
 
