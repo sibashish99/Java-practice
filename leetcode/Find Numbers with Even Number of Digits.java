@@ -20,6 +20,11 @@ class Solution {
         int digits = 0,counter =0;
        for(int i=0;i<nums.length;i++){
             digits = 0;
+         /*
+                We Can Use (Math.log10(nums[i]) + 1) to get the number of
+                digits without using loop. This will make program even more
+                faster.
+             */
             while(nums[i]>0){  
                 nums[i] = nums[i]/10; 
                 digits = digits + 1; 
