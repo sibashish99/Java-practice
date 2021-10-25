@@ -1,5 +1,6 @@
 class Complex{
     private double re,img;
+    //constructor using fields
     public Complex(double re, double img){
        this.re = re;
        this.img = img;
